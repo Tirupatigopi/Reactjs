@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="ninja.svg">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>
+		.parent{
+			display: flex;
+			flex-direction:column;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+		.parent1{
+			display: flex;
+			flex-direction:row;
+			justify-content:flex-start;
+			flex-wrap: wrap;
+		}
+
+		.child{
+			border: 10px solid green;
+			width: 60%;
+			padding: 1%;
+			margin: 1%;
+			justify-content: space-between;
+			background: #fff;
+		}
+		.child1{
+
+			width: 10%;
+			border: 5px groove green;
+			padding: 10%;
+			margin: 1%;
+			justify-content: space-between;
+			background: #fff;
+
+		}
+		.child2{
+			width: 20%;
+			border: 5px groove green;
+			padding: 10%;
+			margin: 1%;
+			justify-content:flex-start;
+			background: #fff;
+
+		}
+	</style>
+</head>
+<body>
+	<section class="parent">
+		<article class="child">profile information</article>
+	</section>
+	<section class="parent1">
+		<article class="child1">
+         		<img src="ninja.svg" alt="hi" width="40%" height="40%"><br>
+         		Name:<input type="text" width="10%"><br>
+         		Email:<input type="text" width="10%"><br>
+
+
+		 </article>
+
+		<article class="child2">
+			<p>Summary</p>
+			<textarea width="200%"></textarea>
+		</article>
+	</section>>
+   <!--div>
+   		<p>paragraph 0</p>
+   	<section>
+   		section 1
+   	</section>
+   	<p>
+   		paragraph 1
+   	</p>
+   	<p>paragraph 2</p>
+   	<p>paragraph 3</p>
+   	</div-->
+</body>
+</html>
